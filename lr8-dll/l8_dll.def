@@ -1,0 +1,10 @@
+LIBRARY l8_dll
+EXPORTS
+ 
+_sort_stdcall@20 = 	_sort_stdcall@0
+sort_cdecl@20 = sort_cdecl
+@sort_fastcall@20 = _sort_fastcall@0
+
+bubble_sort_32 
+sort_stdcall_enum
+sort_cdecl_enum
