@@ -1,0 +1,6 @@
+*.zip
+*.obj
+*.dll
+*.exe
+
+.vscode/
