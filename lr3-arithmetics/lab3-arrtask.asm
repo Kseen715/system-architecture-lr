@@ -18,8 +18,6 @@ includelib msvcrt.lib
    z dw ?
 
    fmt db "%hd", 0
-   fmt db "%hd", 0
-   fmt db "%hd", 0
 
    push offset x
    push offset fmt

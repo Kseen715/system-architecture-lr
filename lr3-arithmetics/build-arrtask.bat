@@ -1,6 +1,6 @@
 @REM set var MASM32 path:
 set MASM32=d:\projects\masm32
-set FILE=lab3
+set FILE=lab3-arrtask
 set BUILD_FOLDER=build
 
 @REM if build folder does not exist, create it
@@ -13,7 +13,7 @@ cd %BUILD_FOLDER%
 if exist %FILE%.exe del %FILE%.exe
 
 @REM compile
-%MASM32%\bin\ml /c /coff /I "%MASM32%" ../%FILE%.asm
+%MASM32%\bin\ml /c /coff /I "%MASM32%\include" ../%FILE%.asm
 
 @REM link
 %MASM32%\bin\link /SUBSYSTEM:CONSOLE /LIBPATH:%MASM32%\lib %FILE%.obj
