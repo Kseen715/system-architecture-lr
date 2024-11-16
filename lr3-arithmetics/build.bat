@@ -1,3 +1,5 @@
+@echo off
+
 @REM set var MASM32 path:
 set MASM32=d:\projects\masm32
 set FILE=lab3
@@ -26,6 +28,8 @@ del %FILE%.obj
 
 @REM cd back
 cd ..
+
+echo.
 pause
 
 
